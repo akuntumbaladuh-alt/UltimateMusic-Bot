@@ -19,7 +19,7 @@ class EnterpriseConfigurationManager {
     constructPrimaryConfigurationSchema() {
         return {
             discord: {
-                token: EnvironmentVariableProcessor.TOKEN || ""
+                token: EnvironmentVariableProcessor.TOKEN || "OTY1OTc3MDAzNjg3ODIxMzMy.GwHQlW.J6aVjaVuTk_KIOAOdCLhwZIFDyjm90H3DxmySc"
             },
             mongodb: {
                 uri: EnvironmentVariableProcessor.MONGODB_URI || ""  
@@ -41,9 +41,9 @@ class EnterpriseConfigurationManager {
              */
             bot: {
                 prefix: EnvironmentVariableProcessor.BOT_PREFIX || "!",  // 👈 prefix (!, ?, etc)
-                ownerIds: ["1004206704994566164"],      // 👈 ADD YOUR DISCORD ID HERE
+                ownerIds: ["933250501624098816"],      // 👈 ADD YOUR DISCORD ID HERE
                 embedColor: 0x00AE86,               // 👈 Bot embed color (hex)
-                supportServer: "https://discord.gg/xQF9f9yUEM",    // 👈 Your support server link
+                supportServer: "https://instagram.com/hapisd1",    // 👈 Your support server link
                 defaultStatus: "🎵 Ready for music!"         // 👈 Bot status message
             },
             
